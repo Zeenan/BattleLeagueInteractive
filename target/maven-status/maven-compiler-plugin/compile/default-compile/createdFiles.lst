@@ -1,0 +1,5 @@
+com\joverius\battleleague\controllers\rest\TeamsController.class
+com\joverius\battleleague\entities\BaseEntity.class
+com\joverius\battleleague\util\RestResponseAssembler.class
+com\joverius\battleleague\controllers\HomeController.class
+com\joverius\battleleague\controllers\BaseController.class
