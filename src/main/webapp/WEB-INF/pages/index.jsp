@@ -6,8 +6,8 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 		<title>Sweg</title>
 		
-		<link href="../includes/css/bootstrap.min.css" rel="stylesheet">
-		<link href="../includes/css/index.css" rel="stylesheet">
+		<link href="includes/css/bootstrap.min.css" rel="stylesheet">
+		<link href="includes/css/index.css" rel="stylesheet">
 		
 	</head>
 	
@@ -23,6 +23,16 @@
 				</a>
 			</div>
 			
+			<!-- 
+			
+			Home = Battle League stuff (maybe display the name and details of the current ongoing matches),
+			Teams = Display all teams with scores,
+			Match History / Ladder = Like Challonge,
+			Login (far right)
+			battleleagueinteractive/ladder/csgo 
+			
+			-->
+			
 			<div class="">
 				<ul class="nav navbar-nav">
 				
@@ -36,20 +46,29 @@
 					</li>
 					
 					<li>
-						<a href="#about-us">
-							<span class="small-nav" data-toggle="tooltip" data-placement="right" title="About Us"> 
+						<a href="#teams">
+							<span class="small-nav" data-toggle="tooltip" data-placement="right" title="Teams"> 
 								<span class="fa fa-users"></span> 
 							</span>
-							<span class="full-nav"> About Us </span>
+							<span class="full-nav"> Teams </span>
 						</a>
 					</li>
 					
 					<li>
-						<a href="#contact-us">
-							<span class="small-nav" data-toggle="tooltip" data-placement="right" title="Contact Us"> 
-								<span class="glyphicon glyphicon-comment"></span> 
+						<a href="#match-history">
+							<span class="small-nav" data-toggle="tooltip" data-placement="right" title="Match History"> 
+								<span class="glyphicon glyphicon-list-alt"></span> 
 							</span>
-							<span class="full-nav"> Contact Us </span>
+							<span class="full-nav"> Match History </span>
+						</a>
+					</li>
+					
+					<li>
+						<a href="#ladder">
+							<span class="small-nav" data-toggle="tooltip" data-placement="right" title="Ladder thingy"> 
+								<span class="fa fa-lemon-o"></span> 
+							</span>
+							<span class="full-nav"> Ladder thingy </span>
 						</a>
 					</li>
 					
@@ -76,7 +95,7 @@
 	
 	
 	<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-	<script src="../includes/js/bootstrap.js"></script>
-	<script src="../includes/scripts/index.js"></script>
+	<script src="includes/js/bootstrap.js"></script>
+	<script src="includes/scripts/index.js"></script>
 	</body>
 </html>
